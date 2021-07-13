@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="slides">
+            <div class="slide fade act">
+                <img src="img/bridge.jpg" alt="bridge">
+                <p class="content">Bridge</p>
+                <p class="count">1/4</p>
+            </div>
+            <div class="slide fade">
+                <img src="img/desert.jpg" alt="desert">
+                <p class="content">Desert</p>
+                <p class="count">2/4</p>
+            </div>
+            <div class="slide fade">
+                <img src="img/forest.jpg" alt="forest">
+                <p class="content">Forest</p>
+                <p class="count">3/4</p>
+            </div>
+            <div class="slide fade">
+                <img src="img/sea.jpg" alt="sea">
+                <p class="content">Sea</p>
+                <p class="count">4/4</p>
+            </div>
+
+            <span onclick="leftArrow()" class="left">&#10094</span>
+            <span onclick="rightArrow()" class="right">&#10095</span>
+        </div>
+
+
+        <p class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </p>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
